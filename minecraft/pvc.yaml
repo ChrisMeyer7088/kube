@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: minecraft-pvc
+spec:
+  storageClassName: REPLACEME
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 15G
