@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: minecraft-pvc
 spec:
-  storageClassName: REPLACEME
+  storageClassName: cmeyer
   accessModes:
     - ReadWriteOnce
   resources:

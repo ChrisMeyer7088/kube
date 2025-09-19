@@ -36,7 +36,7 @@ spec:
             requests:
               cpu: 1
               memory: 2Gi
-            limits: # Hard caps for the resources for this pod. Don't over provision your workloads - start small, and add resources as needed. You can use `kubectl top pod PODNAME` to see real resource consumption.
+            limits:
               cpu: 2
               memory: 4Gi
           volumeMounts:
